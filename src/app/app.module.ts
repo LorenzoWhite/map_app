@@ -6,12 +6,14 @@ import { AgmCoreModule } from '@agm/core';
 
 import { AppComponent } from './app.component';
 import { MapsComponent } from './components/maps/maps.component';
+import { NavComponent } from './components/nav/nav.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    MapsComponent
+    MapsComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
