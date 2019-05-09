@@ -2,7 +2,7 @@
   /* width: 100% */
 }
 
-.test-container {
+.map-container {
   padding: 2rem;
 }
 
@@ -10,4 +10,8 @@ img {
   max-width: 100%;
   max-height: 100%;
   box-shadow: 4px 4px 10px;
+}
+
+agm-map {
+  height: 300px;
 }
